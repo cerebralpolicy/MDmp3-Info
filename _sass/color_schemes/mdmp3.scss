@@ -1,6 +1,8 @@
-@import "../custom/setup";
-@import "../fonts/fonts";
-@import "../vendor/OneLightJekyll/syntax";
+@import "./custom/setup";
+@import "./fonts/fonts";
+
 
 $body-font-family: system-ui, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji", "FOT-Rodin-Pro-M";
 $sidebar-color: #333399;
+
+@import "./vendor/OneLightJekyll/syntax";
