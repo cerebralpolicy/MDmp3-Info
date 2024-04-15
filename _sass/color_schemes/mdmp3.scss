@@ -1,6 +1,9 @@
 @import "../fonts/fonts.scss";
 
-$color_scheme: mdmp;
+$color_scheme: mdmp3;
 
 $body-font-family: system-ui, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji", "FOT-Rodin-Pro-M";
-    
+$sidebar-color: #333399;
+
+
+@import "./vendor/OneLightJekyll/syntax";
