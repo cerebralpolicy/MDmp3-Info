@@ -1,39 +1,6 @@
-@font-face {
-    font-family: 'BMSpace';
-    src: url('_sass\\fonts\\BMSpace.woff') format('woff');
-    src: url('_sass\\fonts\\BMSpace.woff2') format('woff2');
-    src: url('_sass\\fonts\\BMSpace.svg#BMSpace') format('svg');
-    src: url('_sass\\fonts\\BMSpace.eot');
-    src: url('_sass\\fonts\\BMSpace.eot?#iefix') format('embedded-opentype');
-    src: url('_sass\\fonts\\BMSpace.ttf') format('truetype');
+@import "../fonts/fonts.scss";
 
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'FOT-Rodin-Pro';
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-M.woff') format('woff');
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-M.woff2') format('woff2');
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-M.eot');
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-M.eot?#iefix') format('embedded-opentype');
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-M.otf') format('truetype');
+$color_scheme: mdmp;
 
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}@font-face {
-    font-family: 'FOT-Rodin-Pro';
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-UB.woff') format('woff');
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-UB.woff2') format('woff2');
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-UB.eot');
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-UB.eot?#iefix') format('embedded-opentype');
-    src: url('_sass\\fonts\\FOT-Rodin-Pro-UB.otf') format('truetype');
-
-    font-weight: bolder;
-    font-style: normal;
-    font-display: swap;
-}
-
-$body-font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
-    roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji", "FOT-Rodin-Pro" !default;
+$body-font-family: system-ui, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji", "FOT-Rodin-Pro-M";
+    
