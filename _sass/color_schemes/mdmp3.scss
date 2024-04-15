@@ -2,7 +2,23 @@
 @import "./fonts/fonts";
 
 
-$body-font-family: system-ui, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji", "FOT-Rodin-Pro-M";
-$sidebar-color: #333399;
 
-@import "./vendor/OneLightJekyll/syntax";
+// FONT
+$body-font-family: system-ui, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji", "FOT-Rodin-Pro-M";
+
+// Colours
+$sidebar-color: $p3-blue-100;
+$body-background-color: $p3-blue-200;
+$body-heading-color: $grey-dk-300 !default;
+$body-text-color: $grey-dk-100 !default;
+$link-color: $purple-000 !default;
+$nav-child-link-color: $grey-dk-100 !default;
+$base-button-color: #f7f7f7 !default;
+$btn-primary-color: $purple-100 !default;
+$code-background-color: $grey-lt-000 !default;
+$feedback-color: darken($sidebar-color, 3%) !default;
+$table-background-color: $white !default;
+$search-background-color: $white !default;
+$search-result-preview-color: $grey-dk-000 !default;
+
+@import "./vendor/OneDarkJekyll/syntax";
