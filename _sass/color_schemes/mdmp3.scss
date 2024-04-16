@@ -1,8 +1,6 @@
 @import "./custom/setup";
 @import "./fonts/fonts";
 
-
-
 // FONT
 $body-font-family: system-ui, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji", "FOT-Rodin-Pro-M";
 
@@ -11,7 +9,7 @@ $sidebar-color: $p3-blue-100;
 $body-background-color: $p3-blue-200;
 $body-heading-color: $grey-dk-300 !default;
 $body-text-color: $grey-dk-100 !default;
-$link-color: $purple-000 !default;
+$link-color: #ff3 !default;
 $nav-child-link-color: $grey-dk-100 !default;
 $base-button-color: #f7f7f7 !default;
 $btn-primary-color: $purple-100 !default;
