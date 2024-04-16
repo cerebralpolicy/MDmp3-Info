@@ -1,6 +1,6 @@
 ﻿---
 title: Track List
-layout: page
+layout: default
 ---
 
 ## TRACK LIST

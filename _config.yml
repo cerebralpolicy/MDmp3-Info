@@ -1,10 +1,8 @@
 title: MDmp3 Wiki
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
-color_scheme: mdmp3
-
 logo: "./assets/mdmp3wiki.svg"
-
+color_scheme: mdmp3
 url: https://just-the-docs.github.io
 
 aux_links:
