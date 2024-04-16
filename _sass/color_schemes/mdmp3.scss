@@ -1,5 +1,6 @@
 @import "./custom/setup";
 @import "./fonts/fonts";
+@import "./vendor/OneLightJekyll/syntax";
 
 // FONT
 $body-font-family: system-ui, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji", "FOT-Rodin-Pro-M";
@@ -18,5 +19,3 @@ $feedback-color: $p3-blue-000;
 $table-background-color: $white !default;
 $search-background-color: $white !default;
 $search-result-preview-color: $grey-dk-000 !default;
-
-@import "./vendor/OneLightJekyll/syntax";
