@@ -3,7 +3,8 @@ title: Home
 layout: home
 ---
 
-# CONCEPT {:fw-700}
+# CONCEPT
+{: .fw-700 }
 
 In this pursuit, I am sticking to a few rules.  
 
